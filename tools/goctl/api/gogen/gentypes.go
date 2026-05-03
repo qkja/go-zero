@@ -205,6 +205,8 @@ func writeTypes(dir, baseFilename string, cfg *config.Config, types []spec.Type)
 }
 
 func genTypes(dir string, cfg *config.Config, api *spec.ApiSpec) error {
+	// 加载 validate 规则配置
+	loadValidateConfig(dir)
 	if VarBoolTypeGroup {
 		return genTypesWithGroup(dir, cfg, api)
 	}
@@ -222,7 +224,7 @@ func writeType(writer io.Writer, tp spec.Type) error {
 		return err
 	}
 
-	if err := writeMember(writer, structType.Members); err != nil {
+	if err := writeMember(writer, structType.Name(), structType.Members); err != nil {
 		return err
 	}
 
@@ -230,19 +232,27 @@ func writeType(writer io.Writer, tp spec.Type) error {
 	return err
 }
 
-func writeMember(writer io.Writer, members []spec.Member) error {
+func writeMember(writer io.Writer, typeName string, members []spec.Member) error {
 	for _, member := range members {
 		if member.IsInline {
 			if _, err := fmt.Fprintf(writer, "%s\n", strings.Title(member.Type.Name())); err != nil {
 				return err
 			}
-
 			continue
 		}
 
-		if err := writeProperty(writer, member.Name, member.Tag, member.GetComment(), member.Type, 1); err != nil {
+		// 自动注入 validate tag
+		tag := member.Tag
+		validateRule := resolveValidateTag(typeName, member.Name)
+		if validateRule != "" {
+			tag = injectValidateTag(tag, validateRule)
+		}
+
+		if err := writeProperty(writer, member.Name, tag, member.GetComment(), member.Type, 1); err != nil {
 			return err
 		}
 	}
+	return nil
+
 	return nil
 }

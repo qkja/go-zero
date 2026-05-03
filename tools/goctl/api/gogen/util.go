@@ -78,7 +78,7 @@ func writeProperty(writer io.Writer, name, tag, comment string, tp spec.Type, in
 			return err
 		}
 
-		if err := writeMember(writer, structType.Members); err != nil {
+		if err := writeMember(writer, name, structType.Members); err != nil {
 			return err
 		}
 
