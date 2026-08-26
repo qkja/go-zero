@@ -10,13 +10,14 @@ require (
 	github.com/go-sql-driver/mysql v1.9.3
 	github.com/gookit/color v1.6.0
 	github.com/iancoleman/strcase v0.3.0
+	github.com/qkja/go-zero v1.0.1
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
 	github.com/zeromicro/antlr v0.0.1
 	github.com/zeromicro/ddl-parser v1.0.5
-	github.com/qkja/go-zero v1.0.0
+	go.yaml.in/yaml/v3 v3.0.4
 	golang.org/x/text v0.34.0
 	google.golang.org/grpc v1.80.0
 	google.golang.org/protobuf v1.36.11
@@ -99,7 +100,6 @@ require (
 	go.uber.org/multierr v1.9.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/net v0.50.0 // indirect
 	golang.org/x/oauth2 v0.34.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
