@@ -30,3 +30,6 @@ go.work.sum
 # vim auto backup file
 *~
 !OWNERS
+
+# goctl 编译产物，不提交（用 go install github.com/qkja/go-zero/tools/goctl@<版本> 本地编译）
+tools/goctl/goctl.exe
