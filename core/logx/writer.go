@@ -13,8 +13,8 @@ import (
 	"time"
 
 	fatihcolor "github.com/fatih/color"
-	"github.com/zeromicro/go-zero/core/color"
-	"github.com/zeromicro/go-zero/core/errorx"
+	"github.com/qkja/go-zero/core/color"
+	"github.com/qkja/go-zero/core/errorx"
 )
 
 type (

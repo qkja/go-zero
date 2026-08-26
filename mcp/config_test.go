@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/qkja/go-zero/core/conf"
 )
 
 func TestMcpConfDefaults(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
+	"github.com/qkja/go-zero/core/logx/logtest"
 )
 
 func TestDumpGoroutines(t *testing.T) {

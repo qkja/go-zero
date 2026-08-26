@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/assertx"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/ast"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
+	"github.com/qkja/go-zero/tools/goctl/pkg/parser/api/assertx"
+	"github.com/qkja/go-zero/tools/goctl/pkg/parser/api/ast"
+	"github.com/qkja/go-zero/tools/goctl/pkg/parser/api/token"
 )
 
 //go:embed testdata/comment_test.api

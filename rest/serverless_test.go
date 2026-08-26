@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
+	"github.com/qkja/go-zero/core/conf"
+	"github.com/qkja/go-zero/core/logx/logtest"
 )
 
 func TestNewServerless(t *testing.T) {

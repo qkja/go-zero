@@ -1,6 +1,6 @@
 package migrate
 
-import "github.com/zeromicro/go-zero/tools/goctl/internal/cobrax"
+import "github.com/qkja/go-zero/tools/goctl/internal/cobrax"
 
 var (
 	boolVarVerbose   bool

@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/zrpc/internal/codes"
+	"github.com/qkja/go-zero/core/breaker"
+	"github.com/qkja/go-zero/core/errorx"
+	"github.com/qkja/go-zero/zrpc/internal/codes"
 	"google.golang.org/grpc"
 	gcodes "google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

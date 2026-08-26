@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/qkja/go-zero/core/collection"
+	"github.com/qkja/go-zero/core/proc"
+	"github.com/qkja/go-zero/core/timex"
 )
 
 func TestNextDelay(t *testing.T) {

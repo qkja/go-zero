@@ -11,8 +11,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/internal/devserver"
+	"github.com/qkja/go-zero/core/conf"
+	"github.com/qkja/go-zero/internal/devserver"
 )
 
 func TestSqlxMetric(t *testing.T) {

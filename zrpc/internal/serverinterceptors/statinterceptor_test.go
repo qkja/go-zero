@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/syncx"
+	"github.com/qkja/go-zero/core/collection"
+	"github.com/qkja/go-zero/core/lang"
+	"github.com/qkja/go-zero/core/stat"
+	"github.com/qkja/go-zero/core/syncx"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 )

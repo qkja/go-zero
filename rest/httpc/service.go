@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/zeromicro/go-zero/core/breaker"
+	"github.com/qkja/go-zero/core/breaker"
 )
 
 type (

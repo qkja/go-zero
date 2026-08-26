@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/zeromicro/go-zero/core/metric"
-	"github.com/zeromicro/go-zero/core/timex"
-	"github.com/zeromicro/go-zero/rest/internal/response"
+	"github.com/qkja/go-zero/core/metric"
+	"github.com/qkja/go-zero/core/timex"
+	"github.com/qkja/go-zero/rest/internal/response"
 )
 
 const serverNamespace = "http_server"

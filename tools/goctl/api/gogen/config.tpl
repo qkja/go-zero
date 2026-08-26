@@ -5,7 +5,7 @@ package config
 
 import (
 	gobasecfg "github.com/qkja/gobase/config"
-	"github.com/zeromicro/go-zero/rest"
+	"github.com/qkja/go-zero/rest"
 )
 
 // AppCfg 当前配置快照持有者（由入口调用 gobase Init 填充，支持热加载）。

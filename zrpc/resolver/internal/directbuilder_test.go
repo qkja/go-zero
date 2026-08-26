@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/lang"
+	"github.com/qkja/go-zero/core/lang"
 	"google.golang.org/grpc/resolver"
 )
 

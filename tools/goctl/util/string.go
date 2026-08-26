@@ -4,7 +4,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/util/console"
+	"github.com/qkja/go-zero/tools/goctl/util/console"
 )
 
 var goKeyword = map[string]string{

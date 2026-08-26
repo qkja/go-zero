@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/stores/redis"
+	"github.com/qkja/go-zero/core/errorx"
+	"github.com/qkja/go-zero/core/logx"
+	"github.com/qkja/go-zero/core/stores/redis"
 	xrate "golang.org/x/time/rate"
 )
 

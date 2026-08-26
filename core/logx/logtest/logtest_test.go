@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/qkja/go-zero/core/logx"
 )
 
 func TestCollector(t *testing.T) {

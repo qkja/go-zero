@@ -12,7 +12,7 @@ import (
 
 	sdkmcp "github.com/modelcontextprotocol/go-sdk/mcp"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/qkja/go-zero/core/conf"
 )
 
 func TestNewMcpServer(t *testing.T) {

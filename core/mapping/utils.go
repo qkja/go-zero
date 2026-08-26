@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/lang"
+	"github.com/qkja/go-zero/core/lang"
 )
 
 const (

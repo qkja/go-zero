@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"strconv"
 
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
+	"github.com/qkja/go-zero/tools/goctl/api/spec"
+	"github.com/qkja/go-zero/tools/goctl/config"
 )
 
 const defaultPort = 8888

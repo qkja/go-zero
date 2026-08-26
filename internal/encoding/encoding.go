@@ -8,7 +8,7 @@ import (
 
 	"github.com/pelletier/go-toml/v2"
 	"github.com/titanous/json5"
-	"github.com/zeromicro/go-zero/core/lang"
+	"github.com/qkja/go-zero/core/lang"
 	"gopkg.in/yaml.v2"
 )
 
